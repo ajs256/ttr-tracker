@@ -18,5 +18,10 @@
     <button class='ui red basic button' onclick='changeScore("red", 10)'>5 cars</button>
     <button class='ui red basic button' onclick='changeScore("red", 15)'>6 cars</button>
   </p>
+  <p>
+    <input class='ui input' type='number' id='redCustom' placeholder="Custom value...">
+    <button class='positive ui button' onclick='changeScore("red", document.getElementById.redCustom.value())'>Add</button>
+    <button class='negative ui button' onclick='changeScore("red", -Math.abs(document.getElementById.redCustom.value()))'>Add</button>
+  </p>
   </body>
 </html>

@@ -10,3 +10,11 @@ function changeScore (color, val) {
     console.log('Adding', val, "to", color)
 }
 
+function evalCustom (color, id, subtract) {
+    input = document.getElementById(id).value
+    if (subtract == true) {
+        changeScore(color, -Math.abs(input))
+        return 
+    }
+    changeScore(color, input)
+}
