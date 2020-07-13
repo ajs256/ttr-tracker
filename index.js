@@ -6,7 +6,6 @@ scores['yellow'] = 0
 scores['black'] = 0
 
 function changeScore (color, val) {
-
     scores[color] += val
 }
 
