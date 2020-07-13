@@ -10,6 +10,7 @@
   <body>
   <h1 class="ui header"><i class='train icon'></i>Ticket to Ride Tracker</h1>
   <h2 class='ui header'>Red</h2>
+  <h2 class='ui header'>Score: <span id="redScore">...</span></h2>
   <p>
     <button class='ui red basic button' onclick='changeScore("red", 1)'>1 car</button>
     <button class='ui red basic button' onclick='changeScore("red", 2)'>2 cars</button>
@@ -22,6 +23,21 @@
     <input class='ui input' type='number' id='redCustom' placeholder="Custom value...">
     <button class='positive ui button' onclick='evalCustom("red", "redCustom", false)'>Add</button>
     <button class='negative ui button' onclick='evalCustom("red", "redCustom", true)'>Subtract</button>
+  </p>
+  <h2 class='ui header'>Blue</h2>
+  <h2 class='ui header'>Score: <span id="blueScore">...</span></h2>
+  <p>
+    <button class='ui blue basic button' onclick='changeScore("blue", 1)'>1 car</button>
+    <button class='ui blue basic button' onclick='changeScore("blue", 2)'>2 cars</button>
+    <button class='ui blue basic button' onclick='changeScore("blue", 4)'>3 cars</button>
+    <button class='ui blue basic button' onclick='changeScore("blue", 7)'>4 cars</button>
+    <button class='ui blue basic button' onclick='changeScore("blue", 10)'>5 cars</button>
+    <button class='ui blue basic button' onclick='changeScore("blue", 15)'>6 cars</button>
+  </p>
+  <p>
+    <input class='ui input' type='number' id='blueCustom' placeholder="Custom value...">
+    <button class='positive ui button' onclick='evalCustom("blue", "blueCustom", false)'>Add</button>
+    <button class='negative ui button' onclick='evalCustom("blue", "blueCustom", true)'>Subtract</button>
   </p>
   </body>
 </html>

@@ -18,3 +18,8 @@ function evalCustom (color, id, subtract) {
     }
     changeScore(color, input)
 }
+
+function updateScores() {
+    document.getElementById.redScore.innerHTML = scores[red]
+    
+}
