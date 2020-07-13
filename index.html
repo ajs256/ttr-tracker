@@ -20,8 +20,8 @@
   </p>
   <p>
     <input class='ui input' type='number' id='redCustom' placeholder="Custom value...">
-    <button class='positive ui button' onclick='changeScore("red", document.getElementById.redCustom.value())'>Add</button>
-    <button class='negative ui button' onclick='changeScore("red", -Math.abs(document.getElementById.redCustom.value()))'>Add</button>
+    <button class='positive ui button' onclick='evalCustom("red", "redCustom", false)'>Add</button>
+    <button class='negative ui button' onclick='evalCustom("red", "redCustom", true)'>Add</button>
   </p>
   </body>
 </html>
