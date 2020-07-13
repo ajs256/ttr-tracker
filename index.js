@@ -7,6 +7,6 @@ scores['black'] = 0
 
 function changeScore (color, val) {
     scores[color] += val
-    console.log('Setting', color, "to", val)
+    console.log('Adding', val, "to", color)
 }
 
