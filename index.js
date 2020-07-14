@@ -22,7 +22,7 @@ function evalCustom (color, id, subtract) {
 }
 
 function updateScores() {
-    document.getElementById.redScore.innerHTML = scores['red']
-    document.getElementById.blueScore.innerHTML = scores['blue']
+    document.getElementById('redScore').innerHTML = scores['red']
+    document.getElementById('blueScore').innerHTML = scores['blue']
 
 }
