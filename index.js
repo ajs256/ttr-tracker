@@ -29,4 +29,4 @@ function updateScores() {
     document.getElementById('blackScore').innerHTML = scores['black']
 
 }
-window.onload = updateScores()
+// window.onload = updateScores()
