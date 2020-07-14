@@ -12,7 +12,7 @@ function changeScore (color, val) {
 }
 
 function evalCustom (color, id, subtract) {
-    input = document.getElementById(id).value
+    input = Number(document.getElementById(id).value)
     if (subtract == true) {
         changeScore(color, -Math.abs(input))
         return 
